@@ -1,0 +1,99 @@
+.page1{
+    border: 2px solid black;
+    padding: 5px;
+    height: 150px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    
+
+    
+}
+.start{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 25px;
+}
+
+.p1{
+    outline: none;
+    width: 220px;
+    height: 25px;
+}
+
+.p2{
+    outline: none;
+    width: 220px;
+    height: 25px;
+}
+.countTable{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto; 
+       
+}
+
+
+.main{
+    border: 2px solid black;
+    padding: 5px;
+    height: 220px;
+    width: 201px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    
+}
+
+.box{
+    border: 1px solid black;
+    padding: 20px;
+    height: 30px;
+    width: 24px;
+    display: inline-flex;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-left: 1px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    text-decoration-color: white;
+    color: white;
+}
+
+.newReset{
+    border: 2px solid black;
+    justify-content: center;
+    padding: 5px;
+    height: 38px;
+    width: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: larger;
+    border-color: transparent;
+    box-shadow: 0 0 15px -2px #8c8c8c;
+}
+
+.newRestart{
+    border: 2px solid black;
+    justify-content: center;
+    padding: 5px;
+    height: 38px;
+    width: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: larger;
+    border-color: transparent;
+    box-shadow: 0 0 15px -2px #8c8c8c;
+}
+

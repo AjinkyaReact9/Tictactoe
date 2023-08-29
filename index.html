@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICTACTOE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="page1">
+        <input class="p1" type="text" placeholder="player1">
+        <br>
+        <input class="p2" type="text" placeholder="player2">
+        <button class="start" >Start</button>
+    </div>
+    <br>
+    <div class="page2">
+        <div >
+            <table class="countTable" border="2px solid black" cellspacing="5" cellpadding="5">
+                <tr>
+                    <td class="Player1">Player 1</td>
+                    <td class="Player2">Player 2</td>
+                </tr>
+                <tr>
+                    <td class="Pl1">0</td>
+                    <td class="Pl2">0</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="main">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+        <div>
+            <input type="button" class="newReset" value="Reset" onclick="Reset()">
+        </div>
+        <br>
+        <div>
+            
+            <input type="button" class="newRestart" value="Restart">
+        </div>
+    </div>
+    
+    <script src="JS/index.js">
+
+    </script>
+</body>
+</html>
